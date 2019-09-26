@@ -21,7 +21,7 @@ BackBlaze provides cleaned logfiles for the entire period and a small set of SQL
 
 Data is open and has been retrieved from [BackBlaze](https://www.backblaze.com/b2/hard-drive-test-data.html). In this particular example only data from Q3 in 2016 has been used but it's up to the reader to select other or even include additional periods.
 
-Data needs to be downloaded from the section **The Raw Hard Drive Test Data** as zip files and uncompress it in a folder. Using this data we create an sqlite3 database using the SQL scripts that are on the `docs_Q3_2016/` folder. Just follow the instructions in `docs_Q3_2016/sql_readme`.
+Data needs to be downloaded from the section *The Raw Hard Drive Test Data* [here](https://www.backblaze.com/b2/hard-drive-test-data.html) as zip files and unzip them in a folder. Using this data we create an sqlite3 database using the SQL scripts that are on the `docs_Q3_2016/` folder. Just follow the instructions in `docs_Q3_2016/sql_readme`.
 
 ## Results:
 
