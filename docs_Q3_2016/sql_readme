@@ -1,0 +1,13 @@
+These SQL scripts allow you to calculate the annual failure rate
+for Q3 2016 for disk drives from the published CSV files.
+
+First change your starting directory to the location of the sql files and the 2016 directory/folder.
+
+Then use these commands to reproduce the results:
+
+    $ sqlite3 drive_stats.db
+    sqlite> .read create_table_Q3_2016.sql
+    sqlite> .read import_Q3_2016.sql
+    sqlite> .read stats_Q3_2016.sql
+    sqlite> .mode columns
+    sqlite> select * from failure_rates order by model;
