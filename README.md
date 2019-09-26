@@ -1,6 +1,6 @@
 # Survival Analysis with Python
 
-Survival Analysis of Hard Drives using python.
+Survival Analysis of Hard Drive data using python.
 
 ## Introduction
 
